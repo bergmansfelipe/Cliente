@@ -1,0 +1,17 @@
+object DMCliente: TDMCliente
+  OldCreateOrder = False
+  Height = 264
+  Width = 407
+  object cdsBanco: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    ProviderName = 'dspBanco'
+    Left = 56
+    Top = 24
+  end
+  object dsBanco: TDataSource
+    DataSet = cdsBanco
+    Left = 136
+    Top = 24
+  end
+end

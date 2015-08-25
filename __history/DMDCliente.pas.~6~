@@ -1,0 +1,28 @@
+unit DMDCliente;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Data.DBXDataSnap, IPPeerClient,
+  Data.DBXCommon, Data.DB, Data.SqlExpr, Datasnap.DBClient, Datasnap.DSConnect;
+
+type
+  TDMCliente = class(TDataModule)
+    cdsBanco: TClientDataSet;
+    dsBanco: TDataSource;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  DM: TDMCliente;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+end.

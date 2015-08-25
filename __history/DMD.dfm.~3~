@@ -1,0 +1,24 @@
+object DM: TDM
+  OldCreateOrder = False
+  Height = 264
+  Width = 407
+  object SQLConnection1: TSQLConnection
+    ConnectionName = 'DataSnapCONNECTION'
+    DriverName = 'DataSnap'
+    LoginPrompt = False
+    Params.Strings = (
+      'DriverName=DataSnap'
+      'HostName=localhost'
+      'Port=211'
+      'CommunicationProtocol=tcp/ip')
+    Connected = True
+    Left = 40
+    Top = 32
+  end
+  object DSProviderConnection1: TDSProviderConnection
+    Connected = True
+    SQLConnection = SQLConnection1
+    Left = 160
+    Top = 32
+  end
+end
