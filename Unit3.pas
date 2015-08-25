@@ -27,7 +27,7 @@ type
     edtNome: TEdit;
     edtSessao: TEdit;
     //Passei por aqui :)
-
+    // Felipe também passou
   private
     function UrlPost(Url, Parametro: String): String;
   public

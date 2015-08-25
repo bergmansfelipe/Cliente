@@ -126,7 +126,6 @@ object Form3: TForm3
     Height = 41
     Caption = 'GetUsuario'
     TabOrder = 11
-    OnClick = Button6Click
   end
   object edtNome: TEdit
     Left = 335
