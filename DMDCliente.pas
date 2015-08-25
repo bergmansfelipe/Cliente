@@ -13,9 +13,7 @@ type
     cdsMoeda: TClientDataSet;
     dsMoeda: TDataSource;
   private
-    { Private declarations }
   public
-    { Public declarations }
   end;
 
 var
