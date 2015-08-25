@@ -39,7 +39,7 @@ implementation
 
 procedure TSM.DataModuleCreate(Sender: TObject);
 begin
-  ConDataSnap.Open;
+//  ConDataSnap.Open;
   FServidorDBClient := TDBClient.Create(ConDataSnap.DBXConnection, True);
   FServidorDMClient := TDMClient.Create(ConDataSnap.DBXConnection, True);
   FServidorConexaoClient := TConexaoClient.Create(ConDataSnap.DBXConnection, True);
