@@ -26,14 +26,7 @@ type
     Button6: TButton;
     edtNome: TEdit;
     edtSessao: TEdit;
-    procedure ConsumirClick(Sender: TObject);
-    procedure Button1Click(Sender: TObject);
-    procedure Button2Click(Sender: TObject);
-    procedure Button4Click(Sender: TObject);
-    procedure Button5Click(Sender: TObject);
-    procedure Button3Click(Sender: TObject);
-    procedure BitBtn1Click(Sender: TObject);
-    procedure Button6Click(Sender: TObject);
+
   private
     function UrlPost(Url, Parametro: String): String;
   public
