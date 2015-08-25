@@ -26,6 +26,7 @@ type
     Button6: TButton;
     edtNome: TEdit;
     edtSessao: TEdit;
+    //Passei por aqui :)
 
   private
     function UrlPost(Url, Parametro: String): String;
