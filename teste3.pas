@@ -1,1 +1,1 @@
-Teste do Eduardo para avaliação do SmartGit
+Teste do Eduardo para avaliação do SmartGit.
