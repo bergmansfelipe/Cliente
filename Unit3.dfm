@@ -27,7 +27,6 @@ object Form3: TForm3
     Height = 41
     Caption = 'Consumir'
     TabOrder = 0
-    OnClick = ConsumirClick
   end
   object memoResposta: TMemo
     Left = 8
@@ -45,7 +44,6 @@ object Form3: TForm3
     Height = 25
     Caption = 'Button1'
     TabOrder = 2
-    OnClick = Button1Click
   end
   object DBGrid1: TDBGrid
     Left = 8
@@ -75,7 +73,6 @@ object Form3: TForm3
     Height = 25
     Caption = 'Conectar'
     TabOrder = 5
-    OnClick = Button2Click
   end
   object Button3: TButton
     Left = 640
@@ -84,7 +81,6 @@ object Form3: TForm3
     Height = 37
     Caption = 'Set Banco Dados '
     TabOrder = 6
-    OnClick = Button3Click
   end
   object Button4: TButton
     Left = 376
@@ -93,7 +89,6 @@ object Form3: TForm3
     Height = 37
     Caption = 'DataSet Bancos Abrir'
     TabOrder = 7
-    OnClick = Button4Click
   end
   object DBGrid2: TDBGrid
     Left = 535
@@ -115,7 +110,6 @@ object Form3: TForm3
     Height = 37
     Caption = 'DataSet Moeda Abrir '
     TabOrder = 9
-    OnClick = Button5Click
   end
   object BitBtn1: TBitBtn
     Left = 909
@@ -124,7 +118,6 @@ object Form3: TForm3
     Height = 37
     Caption = 'Show Params'
     TabOrder = 10
-    OnClick = BitBtn1Click
   end
   object Button6: TButton
     Left = 335
@@ -133,7 +126,6 @@ object Form3: TForm3
     Height = 41
     Caption = 'GetUsuario'
     TabOrder = 11
-    OnClick = Button6Click
   end
   object edtNome: TEdit
     Left = 335
