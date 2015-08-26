@@ -1,1 +1,1 @@
-Passei por aqui
+Teste do Eduardo para avaliação do SmartGit
